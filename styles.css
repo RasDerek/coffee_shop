@@ -1,0 +1,81 @@
+/* grid for nav */
+nav {
+    position: fixed;
+}
+.parent {
+    
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    
+    }
+
+.right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: fr;
+    
+}
+
+.right > h3 {
+    margin-left: -12rem;
+    padding-top: 5%;
+}
+.logo {
+    width: 38%;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    
+    }
+
+.lTop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    
+    }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lDown {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: px;
+    }    
+
+/* styles for the header */
+header {
+    background-image: url(/img/backg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    } 
+
+.CofCup {
+    position: absolute;
+    height: 60%;
+    margin-left: 18%;
+               
+    }
+
+main {margin-left: 4%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
