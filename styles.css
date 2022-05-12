@@ -29,7 +29,8 @@ nav {
     width: 38%;
 }
 
-.left {margin-left: 2%;
+.left {
+    margin-left: 2%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -37,6 +38,7 @@ nav {
     }
 
 .lTop {
+    margin-left: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -52,7 +54,16 @@ a {
     color: white;
 }
 
+li > a > img {
+    width: 1.2rem;
+}
+
+.cart {
+    margin-left: -4rem;
+}
+
 .lDown {
+    padding-top: 0.5rem;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr;
@@ -61,20 +72,45 @@ a {
     }    
 
 /* styles for the header */
-header {
+header {outline: 1px solid red;
     background-image: url(/img/backg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 10%;
+    padding: 18%;
     } 
 
 .CofCup {
     position: absolute;
-    height: 60%;
+    height: 76%;
     margin-left: 18%;
                
     }
+
+.Hright>button {
+	background-color: #ffffff;
+	border-radius:19px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	
+	font-family:Times New Roman;
+	font-size:18px;
+	padding:15px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background: red;
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+ button>a {
+     color: #000000;
+ }
 
  /* style for main    */
 main {padding-bottom: 10%;
