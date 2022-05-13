@@ -59,90 +59,53 @@ nav {
     grid-row-gap: px;
     }    
 
-    /* style for header */
-header {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-}
-
-header>h4 {
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
-    padding: 2rem;
-width: 20%;
-    
-}
-
-header>p {
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+    padding-left: 1rem;
 }
 
 /* style for main */
-main {
-    /* margin-bottom: -1.4rem; */
-    padding: 1rem;
-    /* background-color: chocolate; */
-    text-align: center;
-}
-
-/* style for section */
-section {
-    padding-top: 3rem;
-    /* background-color: chocolate; */
+ main {
+    margin: 1rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+ } 
+ 
+ h4 {
+    margin: 2rem 15rem 8rem 5rem;
+    padding: 1rem;
 }
 
-section>div { text-align: center;
-    /* border-radius: 24px;
-    background: #ffffff;
-    box-shadow:  2px 2px 18px #bdbdbd,
-             -2px -2px 18px #ffffff; */
+.p {
+    margin-left: -13rem;
+    margin-right: 2rem;
+    padding: 0rem 3rem 3rem;
 }
 
 /* style for footer */
 footer {
-    margin-top: 1rem;
     padding: 2rem;
     background-color: #370E05;
     color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-   
+    grid-column-gap: px;
+    grid-row-gap: px;
     }
 
-.fTop {
-    
+.fTop {margin-left:2%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
         
     }
 
-.fTop>ul>li {
-    margin: 1rem;
-    
-}    
 
 
-
-.fDown {
-    margin-top: 1rem;
-    margin-bottom: 10rem;
-    padding: 2rem;
-    margin-left: 10%;
-    margin-right: 10rem;
-    text-align: center;
+.fDown {margin-left: 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
        
     }
-

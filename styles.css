@@ -2,7 +2,7 @@
 /* grid for nav */
 nav {
     position: fixed;
-    background-color: #370E05;
+    /* background-color: #370E05; */
 }
 .parent {
     
@@ -14,6 +14,7 @@ nav {
     }
 
 .right {
+    margin-left: 3rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: fr;
@@ -21,7 +22,7 @@ nav {
 }
 
 .right > h3 {
-    margin-left: -10rem;
+    margin-left: -8rem;
     padding-top: 8%;
 }
 .logo {margin-left: 10%;
@@ -30,7 +31,6 @@ nav {
 }
 
 .left {
-    margin-left: 2%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -54,12 +54,12 @@ a {
     color: white;
 }
 
-li > a > img {
-    width: 1.2rem;
+li > a > img {background-color: #ffffff;
+    width: 1.5rem;
 }
 
 .cart {
-    margin-left: -4rem;
+    margin-left: -2rem;
 }
 
 .lDown {
@@ -67,27 +67,34 @@ li > a > img {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: px;
-    grid-row-gap: px;
     }    
 
 /* styles for the header */
-header {outline: 1px solid red;
+header {
     background-image: url(/img/backg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 18%;
     } 
 
 .CofCup {
-    position: absolute;
-    height: 76%;
-    margin-left: 18%;
-               
+   
+    height: 25rem;
+    margin-left: 10rem;
+    margin-bottom: -5rem;
+    margin-top: 20rem;         
     }
 
+.Hright{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+    
 .Hright>button {
+    margin-top: 1rem;
+    margin-left: -7rem;
 	background-color: #ffffff;
 	border-radius:19px;
 	border:2px solid #ffffff;
@@ -100,10 +107,10 @@ header {outline: 1px solid red;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
 }
-.myButton:hover {
+/* .myButton:hover {
 	background: red;
 	background-color:#5cbf2a;
-}
+} */
 .myButton:active {
 	position:relative;
 	top:1px;
@@ -113,8 +120,8 @@ header {outline: 1px solid red;
  }
 
  /* style for main    */
-main {padding-bottom: 10%;
-    margin-left: 4%;
+main {
+    padding: 2rem;   
     margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -123,10 +130,10 @@ main {padding-bottom: 10%;
 
 
 /* style for footer */
-footer {outline:  1px solid red;
-    /* color: white; */
-    background-color: #EFEFEF;
-    /* color: white; */
+footer {
+    padding: 2rem;
+    background-color: #370E05;
+    color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -141,10 +148,7 @@ footer {outline:  1px solid red;
         
     }
 
-.cont>a {
-    text-decoration: none;
-    color: black;
-    }
+
 
 .fDown {margin-left: 10%;
     display: grid;
@@ -153,6 +157,4 @@ footer {outline:  1px solid red;
        
     }
 
-.fTop > ul >li >a {
-    color: black;
-} 
+ 
