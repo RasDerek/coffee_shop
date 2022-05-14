@@ -1,0 +1,100 @@
+ /* nav bar style  */
+ * {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+li > a > img {
+    background-color: #ffffff;
+    width: 1.5rem;
+}
+
+li>a , h3>a {
+    color: white;
+}
+.cart {
+    margin-left: -2rem;
+}
+
+/* nav bar style */
+nav {
+    background-color: #370E05;
+    height: 8rem;    
+}
+.parent {    
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    
+    }
+
+.right {
+    padding: 1rem;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;    
+}
+
+.right > h3 { 
+    margin-bottom: 10%;
+    margin-left: -12rem;
+    margin-top: 2rem;
+    width: 30%;
+    font:  sans-serif;
+}
+.logo {
+    width: 38%;
+}
+.lDown {
+    margin-bottom: 20%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: px;
+    } 
+/* style for main */
+/* main > div {outline: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+} */
+
+
+
+
+
+
+
+/* style for footer */
+footer {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #370E05;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: px;
+    grid-row-gap: px;
+    }
+
+.fTop {margin-left:2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+        
+    }
+
+
+
+.fDown {margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+       
+    }   
