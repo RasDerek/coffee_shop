@@ -157,4 +157,90 @@ footer {
        
     }
 
- 
+
+ /* media queries    */
+ @media only screen and (max-width: 768px) {
+    nav {background-color: black;
+        position: sticky;
+        /* background-color: #370E05; */
+    }
+    .parent {
+        
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        
+        }
+    
+    .right {outline: 1px solid white;
+        margin-left: 0rem;
+        display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(2, 1fr);
+        
+    }
+    
+    .right > h3 {outline: 1px solid red; background-color: red;
+        margin-left: 0rem;
+        margin-bottom: 15rem;
+        padding-top: 0rem;
+        width: 10rem;
+        font-size: 0rem;
+    }
+    .logo {outline:  1px solid red;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        padding: 0rem;
+        width: 15rem;
+    }
+    
+    .left {outline: 1px solid white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        
+        }
+    
+    .lTop {
+        margin-left: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        
+        }
+    
+    ul {
+        list-style: none;
+    }
+    
+    
+    
+    li > a > img {background-color: #ffffff;
+        width: 1.5rem;
+    }
+    
+    .cart {
+        margin-left: 0rem;
+    }
+    
+    .lDown {background-color: #333;
+        padding-top: 0.5rem;
+        display: inline;
+        
+        
+        }    
+    .lDown>ul>li>a {
+        color: white;
+        padding: 0rem 0rem;
+        text-decoration: none;
+        font-size: px;
+        display: block;
+    
+        
+    }
+
+
+    
+ }
+
