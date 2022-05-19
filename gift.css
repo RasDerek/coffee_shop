@@ -91,31 +91,41 @@ img {
 }
 
 
- /* style for footer */
+/* style for footer */
 footer {
-    margin-top: 2rem;
-    padding: 2rem;
+    margin-top: 1rem;
     background-color: #370E05;
     color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: px;
-    grid-row-gap: px;
+    
     }
 
-.fTop {margin-left:2%;
+.fTop {
+    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
         
     }
 
+.fTop>ul>li {
+    margin: 1rem;
+    
+}    
 
 
-.fDown {margin-left: 10%;
+
+.fDown {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    padding: 2rem;
+    margin-left: 10%;
+    margin-right: 10rem;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
        
-    }   
+    }

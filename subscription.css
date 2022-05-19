@@ -81,13 +81,12 @@ div>h4>a {
 /* style for footer */
 footer {
     margin-top: 1rem;
-    padding: 2rem;
     background-color: #370E05;
     color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-   
+    
     }
 
 .fTop {
