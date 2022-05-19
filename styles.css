@@ -2,10 +2,7 @@
 /* grid for nav */
 nav {
     position: fixed;
-    /* background-color: #370E05; */
-}
-.parent {
-    
+    /* background-color: #370E05;     */
     color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -13,21 +10,10 @@ nav {
     
     }
 
-.right {
-    margin-left: 3rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: fr;
-    
-}
-
-.right > h3 {
-    margin-left: -8rem;
-    padding-top: 8%;
-}
-.logo {margin-left: 10%;
-    padding: 3%;
-    width: 38%;
+.logo {
+    width: 35%;
+    padding: 1rem;
+    margin-left: 11rem;
 }
 
 .left {
@@ -38,11 +24,8 @@ nav {
     }
 
 .lTop {
-    margin-left: 1rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    
+    display: flex;
+    justify-content: space-around;    
     }
 
 ul {
@@ -63,14 +46,16 @@ li > a > img {background-color: #ffffff;
 }
 
 .lDown {
-    padding-top: 0.5rem;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 1fr;
+    display: flex;
+    justify-content: space-around;
     }    
 
 /* styles for the header */
 header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
     background-image: url(/img/backg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -85,8 +70,8 @@ header {
     margin-top: 20rem;         
     }
 
-.Hright{
-    margin-top: 10rem;
+.Hright{color: white;
+    margin-top: 12rem;
     margin-bottom: 10rem;
     margin-left: 1rem;
     text-align: center;
@@ -97,7 +82,7 @@ header {
     margin-left: -7rem;
 	background-color: #ffffff;
 	border-radius:19px;
-	border:2px solid #ffffff;
+	border:2px solid #370E05;
 	display:inline-block;
 	cursor:pointer;
 	
@@ -107,11 +92,15 @@ header {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
 }
-/* .myButton:hover {
-	background: red;
-	background-color:#5cbf2a;
-} */
-.myButton:active {
+.Hright>button:hover {
+	background: #370E05;
+    color: white;
+}
+
+button>a:hover {
+    color: white;
+}
+.Hright>button:active {
 	position:relative;
 	top:1px;
 }
