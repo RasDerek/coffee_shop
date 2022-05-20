@@ -1,0 +1,170 @@
+
+/* grid for nav */
+nav {
+    position: fixed;
+    background-color: #370E05;    
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    
+    }
+
+.logo {
+    width: 35%;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    
+    }
+
+.lTop {
+    display: flex;
+    justify-content: space-around;    
+    }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li > a > img {background-color: #ffffff;
+    width: 1.5rem;
+}
+
+.cart {
+    margin-left: -2rem;
+}
+
+.lDown {
+    display: flex;
+    justify-content: space-around;
+    }    
+
+/* styles for the header */
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+    background-image: url(/img/backg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    } 
+
+.CofCup {
+   
+    height: 25rem;
+    margin-left: 10rem;
+    margin-bottom: -5rem;
+    margin-top: 20rem;         
+    }
+
+.Hright{color: white;
+    margin-top: 17rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+    
+.Hright>button {
+    margin-top: 1rem;
+    margin-left: -7rem;
+	background-color: #ffffff;
+	border-radius:19px;
+	border:2px solid #370E05;
+	display:inline-block;
+	cursor:pointer;
+	
+	font-family:Times New Roman;
+	font-size:18px;
+	padding:15px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.Hright>button:hover {
+	background: #370E05;
+    color: white;
+}
+
+button>a:hover {
+    color: white;
+}
+.Hright>button:active {
+	position:relative;
+	top:1px;
+}
+ button>a {
+     color: #370E05;
+ }
+
+ /* style for main    */
+main {
+    padding: 2rem;   
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+
+/* style for footer */
+footer {
+    margin-top: 1rem;
+    background-color: #370E05;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    
+    }
+
+.fTop {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+        
+    }
+
+.fTop>ul>li {
+    margin: 1rem;
+    
+}    
+
+label>input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+ul>button {
+    padding: 0.8rem;
+    background: #370E05;
+    border-color: white;
+}
+
+ul>button>a {
+    color: white;
+}
+
+.fDown {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    padding: 2rem;
+    margin-left: 10%;
+    margin-right: 10rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+       
+    }
