@@ -32,7 +32,7 @@ nav {
 .logo {
     width: 35%;
     padding: 1rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 a {
@@ -52,43 +52,30 @@ li > a > img {background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     }    
-   
 
-  /* style for main   */
+/* style for header */
+header {
+    text-align: center;
+    margin: 2rem;
+}
+
+/* style for main */
 main {
-    padding: 3rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-} 
-
-img {
-    width: 45rem;
 }
+main>div {
+    text-align: center;
 
-.gList {
-     margin-top: -2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
 }
-
-.gList>p>a {    
-    padding: 1rem;
-    border-color: #370E05;
-    border-style: solid;
-    border-width: 0rem 0rem 0rem 1rem;
+div>a>img {
+    width: 15rem;
+}
+div>h4>a {
     color: black;
 }
 
-.gList>p>a:hover {
-    color: red;
-}
-
-.gList>p {
-    margin: 2rem;
-
-}
 
 
 /* style for footer */

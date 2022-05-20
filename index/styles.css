@@ -13,7 +13,7 @@ nav {
 .logo {
     width: 35%;
     padding: 1rem;
-    margin-left: 11rem;
+    margin-left: 2rem;
 }
 
 .left {
@@ -56,7 +56,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
 
-    background-image: url(img/backg.jpg);
+    background-image: url(/img/backg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
