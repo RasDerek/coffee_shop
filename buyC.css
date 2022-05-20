@@ -160,7 +160,15 @@ footer {
     
 }    
 
-
+label>input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+ul>button {
+    padding: 0.8rem;
+    background: #370E05;
+    border-color: white;
+}
 
 .fDown {
     margin-top: 1rem;

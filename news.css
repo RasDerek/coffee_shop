@@ -82,6 +82,7 @@ h2 {
 /* style for footer */
 footer {
     margin-top: 1rem;
+    background-color: #370E05;
     color: white;
     display: grid;
     grid-template-columns: 1fr;
@@ -102,7 +103,15 @@ footer {
     
 }    
 
-
+label>input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+ul>button {
+    padding: 0.8rem;
+    background: #370E05;
+    border-color: white;
+}
 
 .fDown {
     margin-top: 1rem;

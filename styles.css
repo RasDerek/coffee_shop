@@ -149,9 +149,10 @@ label>input {
 ul>button {
     padding: 0.8rem;
     background: #370E05;
+    border-color: white;
 }
 
-ul>button>a:hover {
+ul>button>a {
     color: white;
 }
 

@@ -53,14 +53,11 @@ li > a > img {background-color: #ffffff;
     justify-content: space-around;
     }    
    
-
 /* style for main */
-/* main > div {outline: 1px solid red;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-} */
-
+main {outline: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
@@ -91,7 +88,15 @@ footer {
     
 }    
 
-
+label>input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+ul>button {
+    padding: 0.8rem;
+    background: #370E05;
+    border-color: white;
+}
 
 .fDown {
     margin-top: 1rem;
