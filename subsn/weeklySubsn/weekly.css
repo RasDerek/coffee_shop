@@ -1,0 +1,117 @@
+
+/* nav bar style */
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+li > a > img {
+    background-color: #ffffff;
+    width: 1.5rem;
+}
+
+li>a , h3>a {
+    color: white;
+}
+.cart {
+    margin-left: -2rem;
+}
+
+
+/* grid for nav */
+nav {
+    
+    background-color: #370E05;    
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    
+    }
+
+.logo {
+    width: 35%;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li > a > img {background-color: #ffffff;
+    width: 1.5rem;
+}
+
+.cart {
+    margin-left: -2rem;
+}
+
+.lDown {margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    }    
+
+/* style for main */
+main {    /* justify-content: center; */
+    /* display: flexbox; */
+    text-align: center;
+}
+main>img {
+    width: 15rem;
+}
+
+
+
+
+
+
+
+/* style for footer */
+footer {
+    margin-top: 1rem;
+    background-color: #370E05;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    
+    }
+
+.fTop {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+        
+    }
+
+.fTop>ul>li {
+    margin: 1rem;
+    
+}    
+
+label>input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+ul>button {
+    padding: 0.8rem;
+    background: #370E05;
+    border-color: white;
+}
+
+.fDown {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    padding: 2rem;
+    margin-left: 10%;
+    margin-right: 10rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+       
+    }
