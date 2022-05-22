@@ -55,16 +55,46 @@ li > a > img {background-color: #ffffff;
     }    
 
 /* style for main */
-main {    /* justify-content: center; */
-    /* display: flexbox; */
-    text-align: center;
+main { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 main>img {
-    width: 15rem;
+    width: 17rem;
+}
+form>button {
+    padding: 1.3rem;
+    border: 2px solid black;
+}
+form>button>a {
+    color: black;
 }
 
+/* style for section */
+section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+article>h3 { 
+    margin-left: 25rem;
+}
 
+/* style for aside */
+aside { 
+    display: flex;
+    justify-content: center;
+}
+
+div>a>img {
+    width: 10rem;
+}
+aside>div>p {
+    margin-top: -3rem;
+
+}
 
 
 

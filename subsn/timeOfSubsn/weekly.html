@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/subsn/subscription.css">
+    <link rel="stylesheet" href="/subsn/timeOfSubsn/timeOfSub.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,28 +23,74 @@
         </ul>      
     </nav>
 
-    <header>
-        <h2>YOU DON'T HAVE TO MISS OUT ON GREAT COFFEE</h2>
-        <p>Life is busy, we get it. That doesn't mean you can't enjoy an incredible cup of coffee. CooffeeVerse Subscriptions let you order once then enjoy great, freshly-roasted coffee as often as you like. View our frequencies, then click one of the boxes below to sign up and start getting deliveries. </p>
-    </header>
-    
     <main>
+        <img src="/img/WEEKLY.JPG">
         <div>
-            <a href="/subsn/timeOfSubsn/weekly.html"><img src="/img/WEEKLY.JPG"></a>
-            <h4><a href="/subsn/timeOfSubsn/weekly.html" >WEEKLY SUBSCRIPTION</a></h4>
-            <p>from $20 every week<br>every week? every week?</p>
+            <h3>WEEKLY SUBSCRIPTION</h3>
+            <p><b>from $20.00 every <br>every week? every week</b></p>
+            <form>
+                <label for="coffees">COFFEE:</label><br>
+                <select id="coffees" name="coffes">
+                    <option value="select coffee">Select Coffee</option>
+                    <option value="select coffee">DULCINEA</option>
+                    <option value="select coffee">ROASTER'S CHOICE</option>
+                    <option value="select coffee">DECAF</option>
+                    <option value="select coffee">COMBO</option>
+                </select><br><br>
+
+                <label for="Csize">SIZE:</label><br>
+                <select id="size" name="size">
+                    <option value="select size">Select Size</option>
+                    <option value="select size">12 ounce</option>
+                    <option value="select size">2 lbs</option>
+                </select><br><br>
+
+                <label for="quantity">QUANTITY:</label><br>
+                <select id="quantity" name="quantity">
+                    <option value="select quantity">Select Quantity</option>
+                    <option value="select quantity">1</option>
+                    <option value="select quantity">2</option>
+                    <option value="select quantity">3</option>
+                    <option value="select quantity">4</option>
+                </select><br><br>
+
+                <button type="submit"><a href="">SUBSCRIBE</a> </button>
+            </form>
+
         </div>
+    </main>
+
+    <section>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> 
+            Beatae et quisquam praesentium debitis molestias nam quasi,<br> 
+            reprehenderit asperiores dicta doloremque consequatur nesciunt<br> 
+            ipsum illo, maiores sapiente quidem rem! Eum, temporibus.<br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+            Officia nulla neque quos, eveniet ad excepturi maiores voluptate,<br> 
+            eum velit nemo sequi repellendus similique laborum provident<br> 
+            animi voluptas vel eos nobis? Lorem ipsum dolor, sit amet consectetur<br>
+            adipisicing elit. Itaque hic modi labore laboriosam ex dolor voluptate<br> 
+            dolores, porro dignissimos omnis, sint mollitia consequuntur?<br> 
+            Delectus asperiores molestiae consectetur unde adipisci omnis?</p>
+    </section>
+
+    <article>
+        <h3>You Might Also Like</h3>
+    </article>
+       
+    <aside>
         <div>
             <a href="/subsn/timeOfSubsn/bi-weekly.html"><img src="/img/BI-WEEKLY.JPG"></a>
             <h4><a href="/subsn/timeOfSubsn/bi-weekly.html" >BI-WEEKLY SUBSCRIPTION</a></h4>
-            <p>from $20 every 2 weeks<br>fresh coffee shipped every other week</p>
+            <p>from $20 every 2 weeks</p>
         </div>
         <div>
             <a href="/subsn/timeOfSubsn/monthly.html"><img src="/img/MONTHLY.JPG"></a>
             <h4><a href="/subsn/timeOfSubsn/monthly.html" >MONTHLY SUBSCRIPTION</a></h4>
-            <p>from $20 every month<br>fresh coffee shipped monthly</p>
+            <p>from $20 every month</p>
         </div>
-    </main>
+    </aside>
+        
 
     <footer class="down">
         <div class="fTop">
@@ -87,7 +133,5 @@
             <p>Designed by RasDerek</p>
         </div>
     </footer>
-
-
 </body>
 </html>
