@@ -18,10 +18,6 @@ li>a {
     text-decoration: none;
     color: white;
 }
-.cart {
-    margin-left: -2rem;
-}
-
 
 /* grid for nav */
 nav {
@@ -55,31 +51,22 @@ li > a > img {background-color: #ffffff;
     justify-content: space-around;
     }    
    
-
-
-h2 {
-    padding-left: 1rem;
+aside>p {
+    margin-left: 5rem;
 }
-
-header {
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%, -50%);
+/* style for header */
+header {border: 2px solid black;
+    margin-left: 30%;
     width: 30rem;
-    height: 30rem;
-    margin: 2rem;
+    padding-bottom: 4rem;
     text-align: center;
-    border-radius: 17px;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow:  5px 5px 13px #e3e3e3,
-                 -5px -5px 13px #ffffff;
 }
 
 #lForm {
-    margin: 2rem;
+    margin: 1rem;
     width: 18rem;
     height: 3rem;
+    background-color: #E6E6E6;
     border-radius: 5px;
     border-top: hidden;
     border-left: hidden;
@@ -93,6 +80,10 @@ button {
     height: 3rem;
 }
 
+.bt {outline: 1px solid;
+    margin-bottom: 5rem;
+
+}
 button>a {
     text-decoration: none;
     color: white;

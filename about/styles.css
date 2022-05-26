@@ -1,8 +1,7 @@
 
 /* grid for nav */
 nav {
-    position: fixed;
-    background-color: #370E05;    
+    position: absolute;   
     color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
